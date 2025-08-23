@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Used Websites</title>
+    <style>
+        /* Import Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1e1e2f, #2b5876);
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .link-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 12px 25px;
+            border-radius: 10px;
+            font-size: 1.2em;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        a:hover {
+            background-color: #ffffff;
+            color: #2b5876;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Your Favourite Websites</h1>
+    <div class="link-container">
+        <a href="https://www.google.com/" target="_blank">Google</a>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://monkeytype.com/" target="_blank">Monkeytype</a>
+        <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+    </div>
+</body>
+</html>
+
