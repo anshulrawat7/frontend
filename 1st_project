@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato food delivery at you Doorstep</title>
+    <style>
+        /* General Reset and Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff3f6c;
+    color: white;
+    padding: 20px;
+}
+
+header div:first-child {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Navigation Links */
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+main div {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff3f6c;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #f2f2f2;
+    color: #666;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>zomato</div>
+             <div>
+            <a href="/home">Home</a>
+            <a href="/about us">About us</a>
+            <a href="/contact">contact us</a>
+
+        </div>
+    </header>
+    <main>
+        <div>
+            order food anytime and anywhere
+        </div>
+        <p>
+            
+            For over a decade, we’ve enabled our customers to discover new tastes, delivered right to their doorstep
+            Zomato was founded by Deepinder Goyal and Pankaj Chaddah in 2008. The idea for the platform came about when Goyal and Chaddah were working as management consultants and found themselves frustrated with the lack of good restaurant options in their area. They decided to create a platform that would allow users to discover new restaurants based on their location, cuisine, and price point.
+
+Initially, Zomato operated as a simple directory of restaurants, but over time it began to add more features such as user reviews, ratings, and menus. In 2011, Zomato launched its mobile app, which allowed users to access its services on-the-go.
+
+Zomato’s Business Model:
+Zomato’s business model is based on a combination of restaurant discovery and food delivery. The company generates revenue through various means such as advertising, commissions on food orders, and subscription services.
+
+
+        </p>
+    </main>
+    <footer>
+        copyright zomato All rights reserved
+    </footer>
+
+</body>
+</html>
